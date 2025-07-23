@@ -39,5 +39,12 @@
     darwinConfigurations."Adams-Mac-mini" = nix-darwin.lib.darwinSystem {
       modules = [ configuration ];
     };
+
+
+    # Build darwin flake using:
+    # $ darwin-rebuild build --flake .#MacBook-Pro-de-Adam
+    darwinConfigurations."MacBook-Pro-de-Adam" = nix-darwin.lib.darwinSystem {
+      modules = [ configuration ];
+    };
   };
 }
