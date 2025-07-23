@@ -40,8 +40,8 @@
   # Git configuration
   programs.git = {
     enable = true;
-    userName = "Your Name";  # Change this
-    userEmail = "your.email@example.com";  # Change this
+    userName = "Adam Axel Augustinsky";  
+    userEmail = "adamaugustinsky@gmail.com";
   };
 
   # Zsh configuration
